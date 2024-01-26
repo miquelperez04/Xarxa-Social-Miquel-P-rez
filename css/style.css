@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.listaHeader a:hover{
+    color: #FFF;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+
+.listaHeader a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.fondoFoto{
+    background-image: url(../img/FondoPolaroid.webp);
+    background-size: cover;
+    background-position: 50%;
+    width: 98vw;
+    height: 115vh;
+    background-repeat: no-repeat;
+}
+
+.fondoLogin{
+    background-color: #C58362;
+    height: 15%;
+    width: 100.8%;
+    display: flex;
+}
+
+.logo{
+    width: 60px;
+    height: 70px;
+    padding-top: 5px;
+    padding-left: 3%;
+    padding-right: 300px;
+}
+
+.logoLogin{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.nombreXarxa{
+    color: white;
+    padding-top: 0.5px;
+    margin-right: 300px;
+    padding-left: 2.8%;
+    font-size: 20px;
+    font-family: 'Sevillana', cursive;
+}
+
+.formLogin{
+    width: 500px;
+    height: 400px;
+    background-color: #C58362;
+    justify-content: center;
+    border-style: none;
+    border-radius: 50px;
+    color: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-family: 'Sevillana', cursive;  
+}
+
+
+.listaHeader{
+    font-family: 'Sevillana', cursive;
+    color: white;
+    list-style: none;
+    padding: 30px;
+    display: flex;
+    gap: 100px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+
+legend{
+    font-size: 50px;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border-radius: 10px;
+    height: 30px;
+    border-style: none;
+}
+
+
+ .textoLogin{
+     text-align: center;
+     padding-top: 20px;
+ }
+
+
+ .infoCorreo div{
+    margin-left: 0px;
+    margin-right: 56px;
+    width: 85%;
+    justify-content: space-around;
+    line-height: 50px;
+    justify-content: center;
+ }
+
+ .email{
+     padding-bottom: 70px;
+     display: flex;
+     flex-direction: column;
+     
+ }
+
+ .passwd{
+    margin-top: 5px; 
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+
+
+.fondoRegistre{
+    background-image: url(../img/TazaCafé.avif);
+    background-size: cover;
+    background-position: 50%;
+    width: 98vw;
+    height: 140vh;
+    background-repeat: no-repeat;
+}
+
+.registrarse{
+    width: 600px;
+    height: 500px;
+    background-color: #C58362;
+    justify-content: center;
+    border-style: none;
+    border-radius: 50px;
+    color: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-family: 'Sevillana', cursive;
+}
+
+
+.username{
+    margin-top: 10px; 
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.correo{
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fechas{
+    margin-top: 20px;
+    padding-left: 60px;
+}
+
+#fecha{
+    gap: 5px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-left: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+
+.enviar{
+    align-items: center;
+    padding-left: 2%;
+    padding-bottom: 50px;
+}
+
+button{
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #FFF;
+    width: 500px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    font-family: 'Sevillana', cursive;
+}
+
+.bodyIndex{
+    width: 98%;
+}
+
+.padre1{
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 300px;
+    margin-top: 60px;
+    border: 0;
+    box-shadow: 0 0 20px 6px rgb(0 0 0 / 40%);
+    padding: 40px 40px 40px 40px;
+}
+
+.fotoNick{
+    display: flex;
+    margin-left: 50px;
+}
+
+.fotoPerfil{
+    border-radius: 40px;
+    margin-top: 10px;
+    border-color: #C58362;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.nickname{
+    margin-top: 30px;
+    padding-left: 20px;
+    font-size: 30px;
+    justify-content: center;
+    font-family: 'Sevillana', cursive;
+    
+}
+
+.fotoPubli{
+    margin-top: 40px;
+}
+
+.icons{
+    display: flex;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.descripcion{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.subnick{
+    font-weight: bold;
+    font-family: 'Sevillana', cursive;
+}
+
+.container{
+    background-color: #C58362;
+    display: grid; 
+    width: 20%;
+    grid-template-columns: 10px 1fr;
+    grid-template-rows: 9S0px 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+ footer{
+    background-color: #C58362;
+    height: 100px;
+    width: 100.8%;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Sevillana', cursive;
+}
+
+.footerLista ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 15%;
+    color: white;
+    gap: 10px;
+}
+
+.footerLista a{
+    color: white;
+}
+
+.copy{
+    color: white;
+    padding-top: 20px;
+    padding-left: 15%;
+}
+
+.right{
+    font-size: 15px;
+}
+
+
+
